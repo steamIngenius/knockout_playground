@@ -1,4 +1,5 @@
 // Class to represent a row in the seat reservations grid
+// This is our model for this example
 function SeatReservation(name, initialMeal) {
     var self = this;
     self.name = name;

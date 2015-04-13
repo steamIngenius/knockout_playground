@@ -20,6 +20,7 @@
 	            <td><input data-bind="value: name" /></td>
 	            <td><select data-bind="options: $root.availableMeals, value: meal, optionsText: 'mealName'"></select></td>
 	            <td data-bind="text: formattedPrice"></td>
+	            <!-- The click data-bind passes the "curent item" as the first parameter to the function called -->
 	            <td><a href="#" data-bind="click: $root.removeSeat">Remove</a></td>
 	        </tr>
 	    </tbody>
